@@ -2,12 +2,9 @@
 ![Unity 2019.4+](https://img.shields.io/badge/unity-unity%202019.4%2B-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
-based on this [marijnz unity-toolbar-extender](https://github.com/marijnz/unity-toolbar-extender). 
-Also avaliable on [Asset Store](https://assetstore.unity.com/packages/tools/utilities/custom-toolbar-189047?_ga=2.85412063.750031523.1612646196-741310434.1607024629). Please, review it to make it more popular
+based on this [marijnz unity-toolbar-extender](https://github.com/marijnz/unity-toolbar-extender).
 
-![image](https://user-images.githubusercontent.com/16706911/100000419-cff31e00-2dd6-11eb-9a4b-8379e3a7cc50.jpg)
-
-
+![image]("https://github.com/Herb95/CustomToolbar/blob/main/Documentation~/Image/mainView.jpg?raw=true")
 
 ### Why you should use the CustomToolbar?
 This custom tool helps you to test and develop your game easily
@@ -23,11 +20,11 @@ openupm add com.smkplus.customtoolbar
 ### (For Unity 2019.2 or later) Through Unity Package Manager
  * MenuItem - Window - Package Manager
  * Add package from git url
- * paste ```https://github.com/smkplus/CustomToolbar.git#master```
+ * paste ```https://github.com/Herb95/CustomToolbar.git#master```
 
 ### (For Unity 2018.3 or later) Using Git
 Find the manifest.json file in the Packages folder of your project and add a line to `dependencies` field.
-`"com.smkplus.customtoolbar": "https://github.com/smkplus/CustomToolbar.git#master"`
+`"com.smkplus.customtoolbar": "https://github.com/Herb95/CustomToolbar.git#master"`
 Or, use [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension) to install and update the package.
 
 ### For Unity 2018.2 or earlier
