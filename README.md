@@ -4,7 +4,7 @@
 
 based on this [marijnz unity-toolbar-extender](https://github.com/marijnz/unity-toolbar-extender).
 
-![image]("https://github.com/Herb95/CustomToolbar/blob/main/Documentation~/Image/mainView.jpg?raw=true")
+![image](https://github.com/Herb95/CustomToolbar/blob/main/Documentation~/Image/mainView.jpg)
 
 ### Why you should use the CustomToolbar?
 This custom tool helps you to test and develop your game easily
