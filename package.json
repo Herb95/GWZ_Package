@@ -1,8 +1,10 @@
 {
-    "name": "com.graywolfz.custom-toolbar",
-    "version": "0.1.0",
+    "name": "com.gwp.custom-toolbar",
+    "version": "0.1.2",
     "displayName": "Custom-Toolbar",
     "description": "This custom tool helps you to test and develop your game easily",
+    "documentationUrl":"https://github.com/Herb95/CustomToolbar/blob/main/README.md",
+    "licensesUrl":"https://github.com/Herb95/CustomToolbar/blob/main/License.MD",
     "readme": "README.md",
     "unity": "2019.1",
     "unityRelease": "0f1",
@@ -14,7 +16,6 @@
     "author": {
         "name": "Gray Wolf Z",
         "email": "wolfzgray5@gmail.com",
-        "url": ""
-    },
-    "type": "Editor-Tool"
+        "url": "https://github.com/Herb95/CustomToolbar.git"
+    }
 }

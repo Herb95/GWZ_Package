@@ -1,5 +1,5 @@
 {
-    "name": "CustomToolbar.Editor",
+    "name": "Gwp.CustomToolbar.Editor",
     "references": ["UnityEditor.UI","UnityEngine.UI"],
     "includePlatforms": [
         "Editor"
