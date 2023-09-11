@@ -7,7 +7,7 @@ namespace Custom_Toolbar.ToolbarElements
     [Serializable]
     internal abstract class BaseToolbarElement
     {
-        protected static string GetPackageRootPath => "Packages/com.graywolfz.custom-toolbar";
+        protected static string GetPackageRootPath => "Packages/com.gwp.custom-toolbar";
 
         public abstract string NameInList { get; }
 
