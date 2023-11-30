@@ -1,0 +1,27 @@
+{
+    "name": "com.cysharp.unitask",
+    "displayName": "UniTask",
+    "author": {
+        "name": "Cysharp, Inc.",
+        "url": "https://cysharp.co.jp/en/"
+    },
+    "version": "2.5.0",
+    "unity": "2018.4",
+    "description": "Provides an efficient allocation free async/await integration for Unity.\r\n\r\nStruct based UniTask<T> and custom AsyncMethodBuilder to achieve zero allocation\r\nMakes all Unity AsyncOperations and Coroutines awaitable\r\nPlayerLoop based task(UniTask.Yield, UniTask.Delay, UniTask.DelayFrame, etc..) that enable replacing all coroutine operations\r\nMonoBehaviour Message Events and uGUI Events as awaitable/async-enumerable\r\nRuns completely on Unity's PlayerLoop so doesn't use threads and runs on WebGL, wasm, etc.\r\nAsynchronous LINQ, with Channel and AsyncReactiveProperty\r\nTaskTracker window to prevent memory leaks\r\nHighly compatible behaviour with Task/ValueTask/IValueTaskSource",
+    "keywords": [
+        "async/await",
+        "async",
+        "Task",
+        "UniTask"
+    ],
+    "license": "MIT",
+    "category": "Task",
+    "repository": {
+        "url": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+        "type": "git"
+    },
+    "hideInEditor": false,
+    "licensesUrl": "https://github.com/Cysharp/UniTask/blob/master/LICENSE",
+    "documentationUrl": "https://github.com/Cysharp/UniTask/blob/master/README_CN.md",
+    "changelogUrl": "https://github.com/Cysharp/UniTask/releases"
+}
