@@ -23,5 +23,8 @@
     "hideInEditor": false,
     "licensesUrl": "https://github.com/Cysharp/UniTask/blob/master/LICENSE",
     "documentationUrl": "https://github.com/Cysharp/UniTask/blob/master/README_CN.md",
-    "changelogUrl": "https://github.com/Cysharp/UniTask/releases"
+    "changelogUrl": "https://github.com/Cysharp/UniTask/releases",
+    "publishConfig":{
+        "registry": "http://10.198.30.1:9192/"
+    }
 }
