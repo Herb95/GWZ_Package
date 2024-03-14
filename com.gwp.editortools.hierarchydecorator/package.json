@@ -1,0 +1,17 @@
+{
+  "name": "com.gwp.editortools.hierarchydecorator",
+  "displayName": "Gwp EditorTools HierarchyDecorator",
+  "version": "0.9.1",
+  "unity": "2018.4",
+  "description": "HierarchyDecorator is an extension for the Unity Hierarchy enhancing it's utility.",
+  "keywords": [
+    "hierarchy",
+    "editor"
+  ],
+  "category": "Editor",
+  "author": {
+    "name": "Gray Wolf Z",
+    "email": "wolfzgray5@gmail.com",
+    "url": "https://github.com/Herb95/CustomToolbar.git"
+  }
+}

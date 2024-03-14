@@ -1,0 +1,16 @@
+{
+    "name": "Gwp.EditorTools.PlayerPrefsEditor.EditorResources",
+    "rootNamespace": "Gwp.EditorTools.PlayerPrefsEditor",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

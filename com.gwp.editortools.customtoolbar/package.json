@@ -1,0 +1,20 @@
+{
+    "name": "com.gwp.editortools.customtoolbar",
+    "version": "0.1.5",
+    "displayName": "Gwp EditorTools CustomToolbar",
+    "description": "This custom tool helps you to test and develop your game easily",
+    "documentationUrl":"https://github.com/Herb95/CustomToolbar/blob/main/README.md",
+    "licensesUrl":"https://github.com/Herb95/CustomToolbar/blob/main/License.MD",
+    "unity": "2019.1",
+    "unityRelease": "0f1",
+    "keywords": [
+        "attribute",
+        "inspector",
+        "editor"
+    ],
+    "author": {
+        "name": "Gray Wolf Z",
+        "email": "wolfzgray5@gmail.com",
+        "url": "https://github.com/Herb95/CustomToolbar.git"
+    }
+}

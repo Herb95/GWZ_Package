@@ -1,0 +1,14 @@
+﻿{
+    "name": "Gwp.FrameCode.DownloadUtils",
+    "rootNamespace": "Gwp.FrameCode.DownloadUtils",
+    "references": [
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

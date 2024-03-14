@@ -1,0 +1,23 @@
+{
+    "name": "com.gwp.framecode.downloadutils",
+    "displayName": "Gwp FrameCode Downloadutils",
+    "version": "0.0.1",
+    "author": {
+        "name": "Gray Wolf Z",
+        "email": "wolfzgray5@gmail.com",
+        "url": "https://github.com/Herb95/CustomToolbar.git"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Herb95/GWZ_Package"
+    },
+    "unity": "2020.3",
+    "description": "基于Unity 开发的下载器",
+    "keywords": [],
+    "license": "MIT",
+    "category": "",
+    "hideInEditor": false,
+    "licensesUrl": "",
+    "documentationUrl": "",
+    "changelogUrl": ""
+}

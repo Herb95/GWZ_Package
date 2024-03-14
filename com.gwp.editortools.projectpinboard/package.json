@@ -1,0 +1,23 @@
+{
+  "name": "com.gwp.editortools.projectpinboard",
+  "version": "1.0.4",
+  "unity": "2020.2",
+  "displayName": "Gwp EditorTools Project Pin Board",
+  "keywords": [
+    "project",
+    "pin board",
+    "favorite",
+    "asset"
+  ],
+  "description": "Allows you to pin commonly used assets on the window, so you can find them quickly.",
+  "author": {
+    "name": "Gray Wolf Z",
+    "email": "wolfzgray5@gmail.com",
+    "url": "https://github.com/Herb95/CustomToolbar.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Herb95/GWZ_Package"
+  },
+  "license": "MIT"
+}
