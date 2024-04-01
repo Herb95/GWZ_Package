@@ -1,7 +1,7 @@
 {
   "name": "com.gwp.editortools.hierarchydecorator",
   "displayName": "Gwp EditorTools HierarchyDecorator",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "unity": "2018.4",
   "description": "HierarchyDecorator is an extension for the Unity Hierarchy enhancing it's utility.",
   "keywords": [

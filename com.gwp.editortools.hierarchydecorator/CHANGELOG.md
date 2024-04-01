@@ -1,4 +1,8 @@
-## v0.9.2
+# CHANGELOG
+
+## v0.9.2 | Bug Fixes
+
+- Fixed the location of the Setting reference directory.
 
 ## v0.9.1 | Duplicate component types
 
@@ -21,6 +25,7 @@ Two-tone alternate colors can be changed for both light and dark mode.
 You can now set the case of styles choosing from Upper, Lower & No Change @SanielX
 
 ### Icons
+
 - Overhaul to the entire tab and functionality.
 - Enable all of Unity's built in components and custom ones with direct toggles. @SiarheiPilat @nankink
 - Optional toggle to show a single script icon for MonoBehaviours. @SiarheiPilat @nankink
@@ -29,12 +34,14 @@ You can now set the case of styles choosing from Upper, Lower & No Change @Sanie
 - A list of components to exclude has been added to disable them even if show all is enabled.
 
 ### Fixes
+
 - Fixed performance degradation with components as their icons were not being cached.
 - Fixed a bug where component data was not being cached correctly.
 - Fixed a bug where alternating background colors could flicker.
 - Fixed a bug where foldouts would rarely begin flickering.
 
 ### API Additions
+
 - An [Attribute](https://github.com/WooshiiDev/HierarchyDecorator/blob/v0.9.0/HierarchyDecorator/Scripts/Editor/Attributes/RegisterTabAttribute.cs) have been added to handle the order of SettingTabs.
 - Using custom [GUIDrawers ](https://github.com/WooshiiDev/HierarchyDecorator/blob/v0.9.0/HierarchyDecorator/Scripts/Editor/GUI/GUIDrawer.cs)to automatically layout the settings window with ease.
 - ComponentTypes are grouped for categories using [ComponentGroup.cs](https://github.com/WooshiiDev/HierarchyDecorator/blob/v0.9.0/HierarchyDecorator/Scripts/Editor/Data/Types/ComponentGroup.cs)
@@ -51,11 +58,10 @@ Please take note, issues may exist as this is still in development, so please cr
 Thanks
 -- Wooshii
 
-
-
 ## 0.8.9
 
 ### Bug Fixes
+
 - Fixed a bug where built in Unity MonoBehaviour's would not display icons when toggled on.
 
 Cheers
@@ -64,6 +70,7 @@ Cheers
 ## 0.8.8
 
 ### Bug Fixes
+
 - Fixed a bug where custom components would not update when changing the target script.
 
 Cheers
@@ -72,6 +79,7 @@ Cheers
 ## 0.8.7
 
 ### Changes
+
 - Added missing namespace to [GUIHelper.cs](https://github.com/WooshiiDev/HierarchyDecorator/blob/master/HierarchyDecorator/Scripts/Editor/Util/GUIHelper.cs) to avoid conflicts with other packages and/or scripts.
 
 Cheers
@@ -80,6 +88,7 @@ Cheers
 ## 0.8.6
 
 ### Bug Fixes
+
 - @AtaTrkgl | Updated the SceneManagement API for 2021.2 or newer.
 
 ## 0.8.5
@@ -90,11 +99,13 @@ Please note this release may reset your settings but does not change or add feat
 It is recommended to copy your custom settings and replace them after using this release.
 
 ### Bug Fixes
+
 - EditorPref PREF_GUID for quick loading settings is now project specific. (f96723a446b91d6e4eb5054ec87bce841a4b533b)
 - Fixed a bug where settings attempted to be cached before serialization (43e12763e6b858a748c8441c164a7eb94bcae5e7)
 - Fixed a bug where custom GUIStyles had no names assigned causing look up errors. (9ccd2102347d922688cc1e70cf21bb9ed9a945c2)
 
 ### Changes
+
 - Added OnDrawInit to setup data before drawing HierarchyInfo GUI. (0a05a8bd945f816dead8504c81bdd8942b504bdd) (07873266418b00d26b36ef69dac0a383c72d53bb)
 - HierarchyInfo (Layers, Component Icons) will now disappear when overlapping with instance labels in the hierarchy. (f6a3121345ee675a31c2e8857c289cba6a34b362)
 
@@ -106,10 +117,12 @@ Cheers
 This is the another update for v0.8 to round off some final changes and fixes required.
 
 ### Fixes
+
 - Fixed older version issues with icons or GUI rects appearing in the settings.
 - Unity versions using the old UI will not use Toggle Mixed GUIStyles. This is because of Unity having no dark mode version of that style in the old UI.
 
 ### Changes
+
 - Version checks now happen in `OnEnable` for Settings. This is primarily for version support, but also moves some irrelevant code from `ISerializationCallback` methods.
 - Renamed PrefixTab file to StyleTab for correct naming.
 - Small adjustments to GUI for Unity's old UI.
@@ -150,20 +163,24 @@ Cheers,
 Please note, due to changes you will need to update your HierarchyDecorator version
 
 ### Changes
+
 - Added new setting of showing a warning when missing components are detected
 - Darkened the inactive colour of instances in the hierarchy when two-tone is enabled.
 - Layer drawer label is now brighter
 
 ## v0.8.0 | Settings changes, style previews & public API
+
 Please Note, due to API changes you will need to update your HierarchyDecorator version completely.
 
 ### Improvements
+
 - Styles are now previewed in the "Style" tab of settings.
 - Styles are now reorderable and have a cleaner, functional GUI.
 - Styles now have toggles specifically for styled instances for displaying layers and icons.
 - HierarchyDecorator has an improved check for unity component types, not just checking component counts, but version changes. If the Unity version has changed, it will update all components again.
 
 ### Changes
+
 - The settings class has been fully changed with settings all contained within data classes. This allows easier reference and manipulation of settings, while also containing them correctly.
 - All internal classes have been made public. This change has been added just in case anyone wants to access Hierarchy Decorator for any reason whatsoever. This will change throughout development however, so caution is advised.
 - Icons will now disable toggles on icon categories if "Show All Icons" is enabled. This is to stop confusion between enabling all icons and individual icons being accessible at the same time.
@@ -171,9 +188,11 @@ Please Note, due to API changes you will need to update your HierarchyDecorator 
 ## 0.7.0.0: Fixed persisting foldout issues
 
 ## v0.6.0.0
+
 Hierarchy Core Improvements & Redesign
 
 Additions Changes
+
 - Hierarchy now has a new feature system, with easy toggles on options. Will be reflected in the settings in the near future.
 - Hierarchy features/info displayed will now reposition based on what is hidden or displayed keeping space clean.
 - Hovering over component icons will now display what component they are.
@@ -181,6 +200,7 @@ Additions Changes
 - Can now toggle on/off full width styling for the two tone background and styles. If turned off, this will draw custom styles within the normal rect for each instance.
 
 Fixes/Bugs
+
 - Fixed a bug where the ScriptableObject will not be created from the git repository.
 - Removed the Settings ScriptableObject from the project. The settings will still exist within the package.
 - Fixed a bug where the settings would revert after editing other setting tabs.
@@ -188,6 +208,7 @@ Fixes/Bugs
 - General optimisation and clean up of `HierarchyDecorator.cs` has been done.
 
 ## v0.5.1.0
+
 Readded custom component icons back to settings
 
 - Added functionality to icon settings switching between one and two column view if window gets too small
@@ -198,6 +219,7 @@ Will improve throughout v0.5 before jumping on to Hierarchy redesigns.
 Later reworking of `ComponentTypes` is required as it's not the most flexible structure.
 
 ## v0.5.0.0
+
 Settings redesign!
 
 - Removed single tab view due to it being a waste of space, and slow navigation.
@@ -207,19 +229,23 @@ Settings redesign!
 - Prefixes can now all be expanded or hidden in settings.
 
 ## v0.4.6.5
+
 - Removed Style Tab as it served very little purpose, settings will be added elsewhere
 - Fixed a bug with static references targeting the previously destroyed SerializableObject for settings
 
 ## v0.4.6.4
+
 - Settings now correctly create new ScriptableObjects when one does not exist
 - Temporary defaults for Settings have been added until a more refined setup is made
 
 ## v0.4.6.3
+
 Fixed General Settings not saving
 
 - Lightened up the names of some of the classes as they were a little over the top
 
 ## v0.4.6.2
+
 Can now move settings asset around the project.
 
 - Path to current settings now saved in `EditorPrefs`. Will only create a new settings asset if one cannot be found within the project files
@@ -227,6 +253,7 @@ Can now move settings asset around the project.
 - Continuation of clean up, this time for the HierarchySettings class, see `AssetUtility.cs`
 
 ## v0.4.6.1
+
 Restructure of hierarchy decorator calls for correct two tone display
 
 - Seperated label GUI into it's own method
@@ -237,24 +264,29 @@ Restructure of hierarchy decorator calls for correct two tone display
 - Pull Request from @KreliStudio to add Enable/Disable buttons for all icon catergories
 
 ## v0.4.6
+
 - Fixed a bug where the bottom-most instance in the hierarchy could not be occasionally selected
 - Added MonoBehaviour Icon Support. This can be toggled on/off to show all MonoBehaviour types as icons.
 - Added Custom MonoBehaviour icons support. Within the Icon Tab, there is now a Custom Icon Catergory, that will allow users to select MonoBehaviours Directly. This will not only display the script if it's an existing component,
   but the custom icon for them too.
 
 ## v0.4.5.1
+
 - Custom GUIStyles now appear as a dropdown in the prefix style selection for easier switching
 
 ## v0.4.5
+
 - Setting tabs are now setup in their own individual classes
 - Improved caching throughout due to this
 - LayerMasks can now be changed from the Hierarchy (multi or single select)
 - LayerMask display now has it's own settings catergory in the global settings tab
 
 ## v0.4.4
+
 - Added changelog to GitHub
 
 ## v0.4.3
+
 - Added null checks for components to fix console errors and hierarchy drawing
 - Cleaned up light parts of the hierarchy decorator code
 - Moved all global settings into `Global Settings` class
@@ -262,9 +294,11 @@ Restructure of hierarchy decorator calls for correct two tone display
 - Fixed a bug that caused duplication of component types
 
 ## v0.4.2
+
 - Finally fixed foldouts to work properly as normal
 
 ## v0.4.1
+
 - Did basic fixes to hierarchy now that background overlays everything
 - Now draws toggles boxes using the UnityEngine style
 - Redraws GameObject foldouts, but not always correctly
@@ -273,6 +307,7 @@ Restructure of hierarchy decorator calls for correct two tone display
   for a more intuitive way of doing them
 
 ## v0.4.0
+
 - Added component icons
 - Added component icon toggles
 - Made prefix background widths full hierarchy size
@@ -280,10 +315,12 @@ Restructure of hierarchy decorator calls for correct two tone display
 - Can now select between dark mode and light mode settings in prefix settings
 
 ## v0.3.1
+
 - Created and finished general scriptable object settings design
 - Overridden preferences GUI with scriptable object GUI
 
 ## v0.3.0
+
 - Added Options in Preferences
 - Began first pass of editor for scriptable object
 
@@ -293,4 +330,5 @@ Restructure of hierarchy decorator calls for correct two tone display
 - Added layer visualisation in the hierarchy
 
 ## v0.1.0:
+
 - Prefix styles added for headers and catergorisation

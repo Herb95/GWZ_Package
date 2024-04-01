@@ -14,8 +14,9 @@ namespace Gwp.EditorTools.HierarchyDecorator
 
         public const string SETTINGS_PATH = "Hierarchy Decorator";
 
-        public const string SETTINGS_ASSET_PATH = "Assets/HierarchyDecorator/Settings.asset";
-        public const string SETTINGS_ASSET_FOLDER = "Assets/HierarchyDecorator/";
+        public const string SETTINGS_ASSET_FOLDER = "Assets/Editor/Settings/";
+
+        public const string SETTINGS_ASSET_PATH = "Assets/Editor/Settings/Settings.asset";
 
         // ====== Colours ======
 
